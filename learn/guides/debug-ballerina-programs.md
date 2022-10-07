@@ -124,17 +124,17 @@ Follow the steps below to start a test debug session.
 
 <br/>
 
-### Start a program debug session that launches the program in a separate terminal
+### Run the Ballerina program in a separate terminal while debugging
 
 Follow the steps below to start a program debug session that launches the Ballerina program in a separate integrated terminal. This would make it possible to debug programs that take user input in the **Ballerina Debug** mode.
 
-1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Start a debug session with configurations](#start-a-debug-session-with-configurations).
+1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [start a debug session with configurations](#start-a-debug-session-with-configurations).
 
-2. Open the `launch.json` file and add the `terminal` attribute with the `integrated` value under the `Ballerina Debug` configurations section. 
+2. Open the `launch.json` file, and set the `terminal` configuration in the `Ballerina Debug` section to `integrated`. 
 
-3. After setting the configuration attribute, select **Ballerina Debug** from the drop-down available in the upper left corner to start the debugging session.
+3. After setting the configuration, click the **Start Debugging** icon on the upper left corner to start debugging.
 
-    You will view the program executing on a separate integrated terminal titled **BALLERINA DEBUG TERMINAL**, while the **DEBUG CONSOLE** can be used for evaluations.
+    You will see the program executing on a separate integrated terminal titled **BALLERINA DEBUG TERMINAL**, while the **DEBUG CONSOLE** can be used for evaluations.
 
     ![Debug Run Program in Terminal](/learn/images/runinterminal-debug.gif)
 
